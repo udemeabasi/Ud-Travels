@@ -1,0 +1,38 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Navigation Bar */
+  
+  #home {
+    background-color:  #23393c;
+    padding-bottom: 1cm;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    margin-top:-1cm;
+    padding-top: 0.5cm;
+    padding-bottom: 1cm;
+    height: 10mm;
+    text-align: center;
+   }
+
+.topmenu {
+    color: rgb(253, 253, 253);
+    margin: 10px;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration:none;
+  }
+
+ .topdiv {
+    float: right;
+    padding: 1cm;
+}
+
+.company_name {
+    float: left;
+    padding-left: 1.5cm;
+    color: #fff;
+    font-size: 25px;
+    /* Add the styles here */
+}
