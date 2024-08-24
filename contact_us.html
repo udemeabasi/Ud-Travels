@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <script src="https://kit.fontawesome.com/260ef78dc9.js" crossorigin="anonymous"></script>
-
-    <style>
+<style>
         body {
      background: url("new.jpg");
      background-size: cover;
@@ -13,8 +12,8 @@
 </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ud travels</title>
-    <link rel="stylesheet" href="travel_recommendation.css"/>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="okon.css"/>
 </head>
 <body>
 <div id="navbar">
@@ -26,9 +25,9 @@
         <a href="about_us.html" target="_blank">About Us</a>
         <a href="contact_us.html" target="_blank">Contact Us</a>
     </div>
-    <div id="search">
+    <div class="search">
       <form action="/action_page.php">
-        <input type="text" placeholder="Enter a Destination or Keyword" id="text" name="search">
+        <input type="text" placeholder="Enter a Destination or Keyword" name="search">
         <button type="submit">Search</button>
         <button type="clear">Clear</button>
       </form>
@@ -46,29 +45,31 @@
 	<i class="fa-brands fa-youtube"></i>
 </div>
 
-<section id="about-us">
-  <div class="container">
-  <h1>
-    EXPLORE
-    DREAM
-    DESTINATION
-  </h1>
-  <p>
-  <h2>
-  Discover your next adventure with our travel blog,
-  designed to inspire and guide your journeys. 
-  We offer detailed destination guides with must-see 
-  spots and local secrets, alongside authentic 
-  travel stories and honest reviews to help you make the best choices.
-  <h2>
-  </p>
-</div>
+<section class="container">
+    <div class="contact">
+        <h1>CONTACT US</h1>
+        <P>Get in touch</P>
+    </div>
+  <div class="form">
+    <form action="/action_page.php">
+      <div class="name">
+        <label for="fname">Name</label>
+        <input type="text" placeholder="Enter your name" id="fname" name="fname">
+      </div>
+      <div class="email">
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter your email" id="email" name="email">
+      </div>
+      <div class="message">
+        <label for="message">Message</label>
+        <textarea type="text" placeholder="Enter your message"></textarea>
+      </div>
+      <div class="sbmt">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
 </section>
-
-<div class="book_now">
-  <h2>BOOK NOW</h2>
-</div>
-
-<script src="./travel_recommendation.js"></script>
 </body>
 </html>

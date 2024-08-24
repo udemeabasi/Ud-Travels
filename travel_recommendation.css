@@ -1,38 +1,218 @@
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  
-  /* Navigation Bar */
-  
-  #home {
-    background-color:  #23393c;
-    padding-bottom: 1cm;
-    margin-left: -1cm;
-    margin-right: -1cm;
-    margin-top:-1cm;
-    padding-top: 0.5cm;
-    padding-bottom: 1cm;
-    height: 10mm;
-    text-align: center;
-   }
-
-.topmenu {
-    color: rgb(253, 253, 253);
-    margin: 10px;
-    padding: 15px;
-    font-size: 20px;
-    text-decoration:none;
-  }
-
- .topdiv {
-    float: right;
-    padding: 1cm;
+/* Editing for Navigation bar - Ud Travels Home About Contact */
+#navbar {
+    background-color: black;
+    height: 70px;
+    align-content:space-between;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    font-size: 26px;
+    padding: 5px;
+    justify-content: space-around;
 }
 
-.company_name {
-    float: left;
-    padding-left: 1.5cm;
-    color: #fff;
-    font-size: 25px;
-    /* Add the styles here */
+/* Editing for Ud Travels */
+.nav a {
+    color: rgb(255, 247, 247);
+    font-size: 20px;
+    padding: 30px 30px;
+    text-align: center;
+	text-decoration: none;
+}
+
+/* Editing hover for Home About Us and Contact Us */
+.nav a:hover {
+	background-color: #f0f0f0;
+	color: rgb(0, 0, 0);
+}
+
+/* Selector for Search */
+.search input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 15px;
+}
+
+/* Inserting vertical bar */
+.vl {
+	border-left: 4px solid rgb(0, 0, 0);
+	height: 100px;
+	margin-top: 10px;
+  }
+
+  /* Editing the search and clear buttons */
+.search button {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer
+}
+
+ /* Editing the social media icons */
+.social {
+	float: left;
+	display: grid;
+	justify-content: left;
+	gap: 5px;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-right: auto;
+  }
+
+#about-us {
+	margin-left: 50px;
+	margin-top: auto;
+  }
+
+.container h1 {
+   font-size: 30px;
+   text-align: justify;
+   width: 300px;
+}
+
+.container h2 {
+	font-size: 30px;
+	text-align: justify;
+	width: 500px;
+	}
+
+.book_now {
+	color: rgb(255, 251, 251);
+	background-color: black;
+	font-size: 20px;
+	background-size: cover;
+	width: 200px;
+	text-align: center;
+	margin-left: 200px;
+}
+
+#about_us {
+	width: 1500px;
+	margin-left: 200px;
+	margin-top: auto;
+}
+
+.about h1 {
+	font-size: 70px;
+}
+
+.about h2 {
+	font-size: 30px;
+	text-decoration: solid;
+	color:black;
+	font-weight:lighter;
+	
+}
+
+.all_team {
+    display:inline-flex;
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+  }
+
+.team {
+    background-color:rgb(242, 217, 168);
+	opacity: 0.7;
+    display: block;
+    padding: 5px;
+    width: 300px;
+	margin-left: 200px;
+  }
+
+  .team img {
+    height: 35px;
+    align-items: left;
+  }
+
+  .intro {
+	margin-left: 200px;
+	font-size: 30px;
+	
+  }
+
+  .team h3 {
+    align-items: center;
+    font-size: 20px;
+    margin-block-start: 8px;
+	color:rgb(248, 248, 248);
+    font-weight: bold;
+	background-color: rgb(0, 0, 0);
+	width: 100px;
+	text-align: center;
+	opacity: none;
+	margin-left: 100px;
+  } 
+
+  .team h4 {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+  } 
+
+  .team h2 {
+	text-align: center;
+  }
+
+.container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1500px;
+}
+.contact p
+{
+	font-size: 30px;
+	font-weight: 300;
+}
+.form
+{
+	width: 40px;
+	padding: 40px;
+}
+.form label
+{
+	position: relative;
+	font-size: 30px;
+	margin-top: 20px;
+	font-weight: 300;
+	}
+
+
+.form input
+{
+	position: relative;
+	font-size: 20px;
+	margin-top: 20px;
+	width: 500px;
+	height: 35px;
+	border-radius: 3px;
+}
+
+.name {height: 100px;}
+.email {height: 100px;}
+.message {height: 100px;}
+.sbmt {height: 100px;}
+
+.form .message textarea{
+	height: 100px;
+	font-size: 20px;
+}
+
+.form .sbmt, input[type=submit] {
+	margin-top: 50px;
+	height: 50px;
+	width: 510px;
+	font-weight: 20px;
+	font-weight: 500;
 }
