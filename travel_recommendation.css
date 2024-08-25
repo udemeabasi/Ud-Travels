@@ -6,7 +6,7 @@
     color: white;
     display: flex;
     flex-direction: row;
-    gap: 10%;
+    gap: 5%;
     align-items: center;
     font-size: 26px;
     padding: 5px;
@@ -80,7 +80,7 @@
 	justify-content: left;
 	gap: 5px;
 	font-size: 30px;
-	margin-top: 100px;
+	margin-top: 200px;
 	margin-right: auto;
   }
 
@@ -166,12 +166,19 @@
 	text-align: center;
   }
 
+   /* CSS for Contact_us html */
 .container
 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 1500px;
+	width: 800px;
+}
+
+.contact h1
+{
+	font-size: 60px;
+	font-weight: 300;
 }
 .contact p
 {
@@ -196,9 +203,9 @@
 {
 	position: relative;
 	font-size: 20px;
-	margin-top: 20px;
+	margin-top: 10px;
 	width: 500px;
-	height: 35px;
+	height: 30px;
 	border-radius: 3px;
 }
 
@@ -208,12 +215,13 @@
 .sbmt {height: 100px;}
 
 .form .message textarea{
-	height: 100px;
+	height: 80px;
 	font-size: 20px;
+    width: 500px;
 }
 
 .form .sbmt, input[type=submit] {
-	margin-top: 50px;
+	margin-top: 30px;
 	height: 50px;
 	width: 510px;
 	font-weight: 20px;
